@@ -1,9 +1,8 @@
+#def + <name> + ():             function signature
+#funtion declaration
+def encrypt_by_key(message, key): # parameters
+    # function body
 
-
-# key = 3
-# alphabet = 
-# for, if
-def encrypt_by_key(message, key):
     alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     cipher = ""
 
@@ -21,6 +20,10 @@ def encrypt_by_key(message, key):
 
     print (cipher)
 
-encrypt_by_key("To be or not to be", 5)
-print ("*" * 100)
-encrypt_by_key("YT GJ TW STY YT GJ", -5)
+
+#function call
+encrypt_by_key("To be or not to be", 5) # arguments
+
+print ("*" * 100) #*****************************
+
+encrypt_by_key("YT GJ TW STY YT GJ", -5)  
